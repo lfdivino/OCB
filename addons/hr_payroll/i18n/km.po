@@ -3,32 +3,32 @@
 # * hr_payroll
 # 
 # Translators:
-# Martin Trigaux, 2018
-# fanha99 <fanha99@hotmail.com>, 2018
-# thanhnguyen.icsc <thanhnguyen.icsc@gmail.com>, 2018
-# Minh Nguyen <ndminh210994@gmail.com>, 2018
-# Duy BQ <duybq86@gmail.com>, 2019
-# Dung Nguyen Thi <dungnt@trobz.com>, 2019
+# Sitthykun LY <ly.sitthykun@gmail.com>, 2018
+# AN Souphorn <ansouphorn@gmail.com>, 2018
+# Sengtha Chay <sengtha@gmail.com>, 2018
+# Chan Nath <channath@gmail.com>, 2018
+# Samkhann Seang <seangsamkhann@gmail.com>, 2018
+# Lux Sok <sok.lux@gmail.com>, 2019
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-09 10:31+0000\n"
+"POT-Creation-Date: 2019-11-14 07:33+0000\n"
 "PO-Revision-Date: 2018-08-24 09:19+0000\n"
-"Last-Translator: Dung Nguyen Thi <dungnt@trobz.com>, 2019\n"
-"Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
+"Last-Translator: Lux Sok <sok.lux@gmail.com>, 2019\n"
+"Language-Team: Khmer (https://www.transifex.com/odoo/teams/41243/km/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: vi\n"
+"Language: km\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/models/hr_salary_rule.py:42
 #, python-format
 msgid "%s (copy)"
-msgstr "%s (bản sao)"
+msgstr "%s (ចម្លង)"
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip__state
@@ -41,15 +41,18 @@ msgid ""
 "                \n"
 "* When user cancel payslip the status is 'Rejected'."
 msgstr ""
-"* Khi phiếu lương được tạo, trạng thái là 'Dự thảo'.\n"
-"* Nếu phiếu lương đang thẩm định, trạng thái là 'Chờ'.\n"
-"* Nếu phiếu lương được xác nhận, trạng thái là 'Hoàn thành'.\n"
-"* Khi người dùng hủy phiếu lương, trạng thái là 'Bị từ chối'."
+"* នៅពេលការទូទាត់ប្រាក់ត្រូវបានបង្កើតស្ថានភាពគឺ“ ព្រាង\n"
+"\n"
+" ប្រសិនបើការទូទាត់ប្រាក់សំណងស្ថិតនៅក្រោមការ\n"
+"\n"
+"ផ្ទៀងផ្ទាត់ស្ថានភាពគឺ 'កំពុងរង់ចាំ' ។ ប្រសិនបើការទូទាត់ត្រូវបាន\n"
+"បញ្ជាក់នោះស្ថានភាពនឹងត្រូវបានកំណត់ជា 'រួចរាល់' ។ នៅពេលអ្នក\n"
+"ប្រើប្រាស់លុបចោលការទូទាត់ប្រាក់សំណងស្ថានភាពនឹងត្រូវបានបដិសេធ។"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.res_config_settings_view_form
 msgid "<span class=\"o_form_label\">Payroll Rules</span>"
-msgstr "<span class=\"o_form_label\">Quy tắc tính lương</span>"
+msgstr "<span class=\"o_form_label\">ច្បាប់បើកប្រាក់ខែ។</span>"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_by_employees
@@ -58,89 +61,88 @@ msgid ""
 " selected employee(s) based on the dates and credit note specified on "
 "Payslips Run.</span>"
 msgstr ""
-"<span colspan=\"4\" nolabel=\"1\">Cửa sổ này sẽ tạo phiếu tính lương cho tất"
-" cả (các) nhân viên được chọn dựa trên ngày và phiếu chi được chỉ định trên "
-"Chạy phiếu tính lương.</span>"
+"<span colspan=\"4\" "
+"nolabel=\"1\">អ្នកជំនួយការនេះនឹងបង្កើតប្រាក់សំណងសម្រាប់និយោជិក(s)ទាំងអស់ដែលបានជ្រើសរើសដោយផ្អែកលើកាលបរិច្ឆេទនិងកំណត់ត្រាឥណទានដែលបានបញ្ជាក់នៅលើផេយលីបរត់</span>"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.report_payslip
 #: model_terms:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 msgid "<strong>Address</strong>"
-msgstr "<strong>Địa chỉ</strong>"
+msgstr "<strong>អាស័យដ្ឋាន</strong>"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.report_payslip
 #: model_terms:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 msgid "<strong>Authorized signature</strong>"
-msgstr "<strong>Chữ ký Người có Thẩm quyền</strong>"
+msgstr "<strong>ហត្ថលេខាអនុញ្ញាត។</strong>"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.report_payslip
 #: model_terms:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 msgid "<strong>Bank Account</strong>"
-msgstr "<strong>Tài khoản Ngân hàng</strong>"
+msgstr "<strong>គណនេយ្យធនាគារ</strong>"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.report_contributionregister
 msgid "<strong>Date From:</strong>"
-msgstr "<strong>Từ ngày:</strong>"
+msgstr "<strong>ពេលវេលាមកពី</strong>"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.report_payslip
 #: model_terms:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 msgid "<strong>Date From</strong>"
-msgstr "<strong>Từ ngày</strong>"
+msgstr "<strong>ពេលវេលាមកពី</strong>"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.report_contributionregister
 msgid "<strong>Date To:</strong>"
-msgstr "<strong>Đến ngày:</strong>"
+msgstr "<strong>ថ្ងៃទៅកាន់</strong>"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.report_payslip
 #: model_terms:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 msgid "<strong>Date To</strong>"
-msgstr "<strong>Đến ngày</strong>"
+msgstr "<strong>ថ្ងៃបន្តាត់</strong>"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.report_payslip
 #: model_terms:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 msgid "<strong>Designation</strong>"
-msgstr "<strong>Bổ nhiệm</strong>"
+msgstr "<strong>ការកំណត់</strong>"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.report_payslip
 #: model_terms:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 msgid "<strong>Email</strong>"
-msgstr "<strong>Email</strong>"
+msgstr "<strong>អ៊ីម៉ែល</strong>"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.report_payslip
 #: model_terms:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 msgid "<strong>Identification No</strong>"
-msgstr "<strong>Số CMND</strong>"
+msgstr "<strong>ទេ។</strong>"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.report_payslip
 #: model_terms:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 msgid "<strong>Name</strong>"
-msgstr "<strong>Tên</strong>"
+msgstr "<strong>ឈ្មោះ</strong>"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.report_payslip
 #: model_terms:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 msgid "<strong>Reference</strong>"
-msgstr "<strong>Tham chiếu</strong>"
+msgstr "<strong>យោង</strong>"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.report_contributionregister
 msgid "<strong>Register Name:</strong>"
-msgstr "<strong>Tên Ghi nhận Đóng góp:</strong>"
+msgstr "<strong>ការចុះឈ្មោះ</strong>"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.report_contributionregister
 msgid "<strong>Total</strong>"
-msgstr "<strong>Tổng</strong>"
+msgstr "<strong>សរុប</strong>"
 
 #. module: hr_payroll
 #: model_terms:ir.actions.act_window,help:hr_payroll.action_contribution_register_form
@@ -149,62 +151,62 @@ msgid ""
 "            payment of the employees. It can be the social security, the\n"
 "            state or anyone that collect or inject money on payslips."
 msgstr ""
-"Contribution register là bên thứ ba liên quan tới việc thanh toán \n"
-"            tiền lương cho người lao động. Nó có thể là bảo hiểm xã hội,\n"
-"            thành phố hoặc bất kỳ ai thu hoặc chi tiển trên phiếu lương."
+"ការចុះឈ្មោះចូលរួមវិភាគទានគឺជាភាគីទីបីដែលពាក់ព័ន្ធនឹងប្រាក់ខែ។             "
+"ការទូទាត់របស់និយោជិក។ វាអាចជាសន្តិសុខសង្គម។             "
+"រដ្ឋឬនរណាម្នាក់ដែលប្រមូលឬចាក់បញ្ចូលប្រាក់នៅលើក្រដាសប្រាក់។"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_res_config_settings__module_account_accountant
-msgid "Account Accountant"
-msgstr "Tài khoản kế toán"
+msgid "Account"
+msgstr "គណនីយ"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.res_config_settings_view_form
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Accounting"
-msgstr "Kế toán"
+msgstr "គណនី"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Accounting Information"
-msgstr "Thông tin kế toán"
+msgstr "ព៌ត៌មានគណនី"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line__active
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule__active
 msgid "Active"
-msgstr "Có hiệu lực"
+msgstr "សកម្ម"
 
 #. module: hr_payroll
 #: model_terms:ir.actions.act_window,help:hr_payroll.action_contribution_register_form
 msgid "Add a new contribution register"
-msgstr "Thêm khoản đóng góp mới"
+msgstr "បន្ថែមការចុះឈ្មោះចូលរួមវិភាគទានថ្មី។"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Add an internal note..."
-msgstr "Thêm ghi chú nội bộ..."
+msgstr "បន្ថែមកំណត់សំគាល់"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_contract_advantage_template_view_form
 msgid "Advantage Name"
-msgstr "Tên Chế độ Đãi ngộ"
+msgstr "ឈ្មោះគុណសម្បត្តិ។"
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,name:hr_payroll.act_children_salary_rules
 msgid "All Children Rules"
-msgstr "Tất cả Quy tắc Con"
+msgstr "ច្បាប់កុមារទាំងអស់"
 
 #. module: hr_payroll
 #: model:hr.salary.rule.category,name:hr_payroll.ALW
 msgid "Allowance"
-msgstr "Phụ cấp"
+msgstr "ទឹកប្រាក់បន្ថែម"
 
 #. module: hr_payroll
 #: selection:hr.payslip.line,condition_select:0
 #: selection:hr.salary.rule,condition_select:0
 msgid "Always True"
-msgstr "Luôn đúng"
+msgstr "គ្រប់យ៉ាងត្រឹមត្រូវ"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_input__amount
@@ -213,25 +215,25 @@ msgstr "Luôn đúng"
 #: model_terms:ir.ui.view,arch_db:hr_payroll.report_payslip
 #: model_terms:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 msgid "Amount"
-msgstr "Tổng tiền"
+msgstr "ចំនួន"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line__amount_select
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule__amount_select
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_line_filter
 msgid "Amount Type"
-msgstr "Loại tiền"
+msgstr "ប្រភេទទឹកប្រាក់"
 
 #. module: hr_payroll
 #: selection:hr.contract,schedule_pay:0
 msgid "Annually"
-msgstr "Hàng năm"
+msgstr "ប្រចាំឆ្នាំ។"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line__appears_on_payslip
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule__appears_on_payslip
 msgid "Appears on Payslip"
-msgstr "Xuất hiện trong Phiếu lương"
+msgstr "ការរៀបចំសន្លឹកថវិកា"
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_line__condition_python
@@ -240,94 +242,94 @@ msgid ""
 "Applied this rule for calculation if condition is true. You can specify "
 "condition like basic > 1000."
 msgstr ""
-"Quy tắc này được áp dụng cho việc tính toán nếu điều kiện là đúng. Bạn có "
-"thể chỉ ra điều kiện như luong_co_ban > 10000000."
+"អនុវត្តច្បាប់នេះសម្រាប់ការគណនាប្រសិនបើលក្ខខណ្ឌពិត។ "
+"អ្នកអាចបញ្ជាក់លក្ខខណ្ឌដូចជាមូលដ្ឋាន> ១០០០ ។"
 
 #. module: hr_payroll
 #: model:hr.salary.rule.category,name:hr_payroll.BASIC
 msgid "Basic"
-msgstr "Cơ sở"
+msgstr "មូលដ្ឋាន"
 
 #. module: hr_payroll
 #: model:hr.salary.rule,name:hr_payroll.hr_rule_basic
 msgid "Basic Salary"
-msgstr "Lương Cơ bản"
+msgstr "ប្រាក់ខែគោល"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_res_config_settings__module_l10n_be_hr_payroll
 msgid "Belgium Payroll"
-msgstr "Bảng Lương Vương Quốc Bỉ"
+msgstr "បៀវត្សប៊ែលហ្សិក"
 
 #. module: hr_payroll
 #: selection:hr.contract,schedule_pay:0
 msgid "Bi-monthly"
-msgstr "Hai tháng một"
+msgstr "គិតជាខែ"
 
 #. module: hr_payroll
 #: selection:hr.contract,schedule_pay:0
 msgid "Bi-weekly"
-msgstr "Hai tuần một"
+msgstr "សប្តាហ៌"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_line_form
 msgid "Calculations"
-msgstr "Tính toán"
+msgstr "ការគណនា"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_payslip_lines_contribution_register
 msgid "Cancel"
-msgstr "Hủy"
+msgstr "លុបចោល"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Cancel Payslip"
-msgstr "Hủy Phiếu lương"
+msgstr "លុបចោល"
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/models/hr_payslip.py:96
 #, python-format
 msgid "Cannot cancel a payslip that is done."
-msgstr "Không thể huỷ phiếu lương mà đã hoàn thành."
+msgstr "មិនអាចលុបចោលការបង់ប្រាក់ដែលបានធ្វើរួចទេ។"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line__category_id
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule__category_id
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_rule_filter
 msgid "Category"
-msgstr "Danh mục"
+msgstr "ប្រភេទ"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_salary_rule_form
 msgid "Child Rules"
-msgstr "Quy tắc con"
+msgstr "ច្បាប់កុមារ។"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line__child_ids
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule__child_ids
 msgid "Child Salary Rule"
-msgstr "Quy tắc con"
+msgstr "វិធានប្រាក់ខែកុមារ។"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payroll_structure__children_ids
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule_category__children_ids
 msgid "Children"
-msgstr "Con"
+msgstr "ក្មេង"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_salary_rule_form
 msgid "Children Definition"
-msgstr "Định nghĩa các Quy tắc con"
+msgstr "និយមន័យកុមារ"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.res_config_settings_view_form
 msgid "Choose a Payroll Localization"
-msgstr "Chọn Quy tắc Tiền lương Bản địa"
+msgstr "ជ្រើសរើសការធ្វើមូលដ្ឋានីយកម្មបើកប្រាក់ខែ។"
 
 #. module: hr_payroll
 #: selection:hr.payslip.run,state:0
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_payslip_run_form
 msgid "Close"
-msgstr "Đóng"
+msgstr "បិទ"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contract_advantage_template__code
@@ -341,18 +343,18 @@ msgstr "Đóng"
 #: model_terms:ir.ui.view,arch_db:hr_payroll.report_payslip
 #: model_terms:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 msgid "Code"
-msgstr "Mã"
+msgstr "កូដ"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_payroll_structure_view_kanban
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_salary_rule_view_kanban
 msgid "Code:"
-msgstr "Mã:"
+msgstr "កូដ:"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_filter
 msgid "Companies"
-msgstr "Công ty"
+msgstr "ក្រុមហ៊ុន"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contribution_register__company_id
@@ -362,49 +364,49 @@ msgstr "Công ty"
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule__company_id
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule_category__company_id
 msgid "Company"
-msgstr "Công ty"
+msgstr "ក្រុមហ៊ុន"
 
 #. module: hr_payroll
 #: model:hr.salary.rule.category,name:hr_payroll.COMP
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_salary_rule_form
 msgid "Company Contribution"
-msgstr "Đóng góp Công ty"
+msgstr "ការចូលរួមពីក្រុមហ៊ុន"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_salary_rule_form
 msgid "Computation"
-msgstr "Tính toán"
+msgstr "ការគណនា"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Compute Sheet"
-msgstr "Tính toán Phiếu lương"
+msgstr "សន្លឹកគណនា"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line__condition_select
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule__condition_select
 msgid "Condition Based on"
-msgstr "Điều kiện Dựa trên"
+msgstr "លក្ខខណ្ឌផ្អែកលើ។"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_salary_rule_form
 msgid "Conditions"
-msgstr "Điều kiện"
+msgstr "លក្ខខណ្ឌ"
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_res_config_settings
 msgid "Config Settings"
-msgstr "Cấu hình thiết lập"
+msgstr "កំណត់រចនាសម្ព័ន្ធ"
 
 #. module: hr_payroll
 #: model:ir.ui.menu,name:hr_payroll.menu_hr_payroll_configuration
 msgid "Configuration"
-msgstr "Cấu hình"
+msgstr "កំណត់ផ្លាស់ប្តូរ"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Confirm"
-msgstr "Xác nhận"
+msgstr "បញ្ជាក់"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip__contract_id
@@ -412,18 +414,18 @@ msgstr "Xác nhận"
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line__contract_id
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_worked_days__contract_id
 msgid "Contract"
-msgstr "Hợp đồng"
+msgstr "កុងត្រា"
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,name:hr_payroll.hr_contract_advantage_template_action
 #: model:ir.ui.menu,name:hr_payroll.hr_contract_advantage_template_menu_action
 msgid "Contract Advantage Templates"
-msgstr "Mẫu Chế độ Đãi ngộ cho Hợp đồng"
+msgstr "ពុម្ពអត្ថប្រយោជន៍នៃកិច្ចសន្យា។"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_contribution_register_form
 msgid "Contribution"
-msgstr "Đóng góp"
+msgstr "ការចូលរួមចំណែក។"
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_contribution_register
@@ -431,12 +433,12 @@ msgstr "Đóng góp"
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule__register_id
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_line_filter
 msgid "Contribution Register"
-msgstr "Ghi nhận đóng góp"
+msgstr "ចុះឈ្មោះចូលរួមវិភាគទាន"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_payslip_lines_contribution_register
 msgid "Contribution Register's Payslip Lines"
-msgstr "Dòng Phiếu lương liên quan đến Ghi nhận Đóng góp"
+msgstr "ខ្សែបង់សាយភីពរបស់ចុះឈ្មោះចូលរួមវិភាគទាន។"
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,name:hr_payroll.action_contribution_register_form
@@ -444,17 +446,17 @@ msgstr "Dòng Phiếu lương liên quan đến Ghi nhận Đóng góp"
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_contribution_register_filter
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_contribution_register_tree
 msgid "Contribution Registers"
-msgstr "Ghi nhận Đóng góp"
+msgstr "បញ្ជរការចូលរួមចំណែក។"
 
 #. module: hr_payroll
 #: model:hr.salary.rule,name:hr_payroll.hr_salary_rule_convanceallowance1
 msgid "Conveyance Allowance"
-msgstr "Trợ cấp chuyển nhượng"
+msgstr "ប្រាក់ឧបត្ថម្ភសម្រាប់ការធ្វើដំណើរ"
 
 #. module: hr_payroll
 #: model:hr.salary.rule,name:hr_payroll.hr_salary_rule_ca_gravie
 msgid "Conveyance Allowance For Gravie"
-msgstr "Trợ cấp chuyển nhượng cho Gravie"
+msgstr "ប្រាក់ឧបត្ថម្ភសម្រាប់ភាពងាយស្រួលសម្រាប់ហ្គ្រេវី"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contract_advantage_template__create_uid
@@ -471,7 +473,7 @@ msgstr "Trợ cấp chuyển nhượng cho Gravie"
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule_category__create_uid
 #: model:ir.model.fields,field_description:hr_payroll.field_payslip_lines_contribution_register__create_uid
 msgid "Created by"
-msgstr "Được tạo bởi"
+msgstr "បង្កើតដោយ"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contract_advantage_template__create_date
@@ -488,42 +490,42 @@ msgstr "Được tạo bởi"
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule_category__create_date
 #: model:ir.model.fields,field_description:hr_payroll.field_payslip_lines_contribution_register__create_date
 msgid "Created on"
-msgstr "Thời điểm tạo"
+msgstr "បង្កើតនៅ"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip__credit_note
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_run__credit_note
 msgid "Credit Note"
-msgstr "Giấy báo có"
+msgstr "កំណត់ចំណំាឥណទា"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip__date_from
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_run__date_start
 #: model:ir.model.fields,field_description:hr_payroll.field_payslip_lines_contribution_register__date_from
 msgid "Date From"
-msgstr "Từ ngày"
+msgstr "ទម្រង់ថ្ងៃខែ"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip__date_to
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_run__date_end
 #: model:ir.model.fields,field_description:hr_payroll.field_payslip_lines_contribution_register__date_to
 msgid "Date To"
-msgstr "Đến ngày"
+msgstr "ថ្ងៃទៅមុខ"
 
 #. module: hr_payroll
 #: model:hr.salary.rule.category,name:hr_payroll.DED
 msgid "Deduction"
-msgstr "Giảm trừ"
+msgstr "ការកាត់ថ្លៃ។"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contract_advantage_template__default_value
 msgid "Default value for this advantage"
-msgstr "Giá trị mặc định cho Chế độ đãi ngộ này"
+msgstr "តម្លៃលំនាំដើមសម្រាប់គុណប្រយោជន៍នេះ។"
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_contract__schedule_pay
 msgid "Defines the frequency of the wage payment."
-msgstr "Xác định tần suất thanh toán khoản lương này."
+msgstr "កំណត់ភាពញឹកញាប់នៃការទូទាត់ប្រាក់ឈ្នួល។"
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip__struct_id
@@ -533,11 +535,9 @@ msgid ""
 "mandatory anymore and thus the rules applied will be all the rules set on "
 "the structure of all contracts of the employee valid for the chosen period"
 msgstr ""
-"Định nghĩa một quy tắc mà được áp dụng cho phiếu lương này, tùy theo hợp "
-"đồng lao động được chọn. Nếu bạn để trống trường hợp đồng lao động, trường "
-"này sẽ không còn bắt buộc nữa và do đó quy tắc được áp dụng  sẽ là tất cả "
-"quy tắc trên cấu trúc lương của tất cả các hợp đồng lao động của nhân viên "
-"trong kỳ được chọn"
+"កំណត់វិធានដែលត្រូវអនុវត្តចំពោះការទូទាត់ប្រាក់សំណងនេះស្របតាមកិច្ចសន្យាដែលបានជ្រើសរើស។"
+" "
+"ប្រសិនបើអ្នកទុកកិច្ចសន្យានៅទំនេរនោះវាលនេះមិនចាំបាច់ទៀតទេហើយដូច្នេះច្បាប់ដែលបានអនុវត្តនឹងជាវិធានទាំងអស់ដែលបានកំណត់លើរចនាសម្ព័ន្ធនៃកិច្ចសន្យាទាំងអស់របស់និយោជិកដែលមានសុពលភាពសម្រាប់រយៈពេលដែលបានជ្រើសរើស។"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contribution_register__note
@@ -551,18 +551,18 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_contribution_register_form
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_salary_rule_form
 msgid "Description"
-msgstr "Miêu tả"
+msgstr "ការពិពណ៌​នា​"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Details By Salary Rule Category"
-msgstr "Chi tiết theo nhóm quy tắc lương"
+msgstr "រៀបរាប់ពីចំណាក់រថ្នាក់សន្លឹកប្រាក់ខែ"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip__details_by_salary_rule_category
 #: model_terms:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 msgid "Details by Salary Rule Category"
-msgstr "Chi tiết theo nhóm quy tắc lương"
+msgstr "ការរៀបរាប់ពីចំណាប់ថ្នាក់ប្រាក់ខែ"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contract_advantage_template__display_name
@@ -581,41 +581,41 @@ msgstr "Chi tiết theo nhóm quy tắc lương"
 #: model:ir.model.fields,field_description:hr_payroll.field_report_hr_payroll_report_contributionregister__display_name
 #: model:ir.model.fields,field_description:hr_payroll.field_report_hr_payroll_report_payslipdetails__display_name
 msgid "Display Name"
-msgstr "Tên hiển thị"
+msgstr "ឈ្មោះសំរាប់បង្ហាញ"
 
 #. module: hr_payroll
 #: selection:hr.payslip,state:0
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_payslip_run_filter
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_filter
 msgid "Done"
-msgstr "Hoàn thành"
+msgstr "រួចរាល"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_payslip_run_filter
 msgid "Done Payslip Batches"
-msgstr "Hoàn thành Bảng lương"
+msgstr "ដាប់ផិលលីប។"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_filter
 msgid "Done Slip"
-msgstr "Phiếu lương đã hoàn thành"
+msgstr "រួចរាល់សំរាប់តារាងប្រាក់ខែ"
 
 #. module: hr_payroll
 #: selection:hr.payslip,state:0 selection:hr.payslip.run,state:0
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_payslip_run_filter
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_filter
 msgid "Draft"
-msgstr "Nháp"
+msgstr "ព្រៀង"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_payslip_run_filter
 msgid "Draft Payslip Batches"
-msgstr "Bảng lương dự thảo"
+msgstr "សេចក្តីព្រាងប៉ែតឡីប"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_filter
 msgid "Draft Slip"
-msgstr "Phiếu lương dự thảo"
+msgstr "សេចក្តីព្រាងរអិល"
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_employee
@@ -623,34 +623,34 @@ msgstr "Phiếu lương dự thảo"
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line__employee_id
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Employee"
-msgstr "Người lao động"
+msgstr "បុគ្គលិក"
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_contract
 msgid "Employee Contract"
-msgstr "Hợp đồng Nhân viên"
+msgstr "កិច្ចសន្យាការងារ"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_employee_grade_form
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payroll_structure_list_view
 msgid "Employee Function"
-msgstr "Chức năng Nhân viên"
+msgstr "មុខងាររបស់និយោជិក។"
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,name:hr_payroll.action_view_hr_payslip_form
 #: model:ir.ui.menu,name:hr_payroll.menu_department_tree
 msgid "Employee Payslips"
-msgstr "Phiếu lương nhân viên"
+msgstr "សន្លឹកប្រាក់ខែរបស់និយោជិក។"
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_contract_advantage_template
 msgid "Employee's Advantage on Contract"
-msgstr "Chế độ Đãi ngộ Nhân viên trên Hợp đồng"
+msgstr "គុណសម្បត្តិរបស់និយោជិកលើកិច្ចសន្យា។"
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_contract__resource_calendar_id
 msgid "Employee's working schedule."
-msgstr "Khung giờ làm việc của Nhân viên"
+msgstr "កាលវិភាគការងាររបស់និយោជិក។"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_employees__employee_ids
@@ -658,25 +658,26 @@ msgstr "Khung giờ làm việc của Nhân viên"
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_filter
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_line_filter
 msgid "Employees"
-msgstr "Nhân viên"
+msgstr "និយោជិក"
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/models/hr_salary_rule.py:92
 #, python-format
 msgid "Error! You cannot create recursive hierarchy of Salary Rule Category."
-msgstr "Lỗi! Bạn không thể tạo phân cấp đệ quy của Danh mục quy tắc lương."
+msgstr ""
+"កំហុស! អ្នកមិនអាចបង្កើតឋានានុក្រមហៅខ្លួនឯងឡើងវិញនៃប្រភេទវិធានប្រាក់ខែបានទេ។"
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/models/hr_salary_rule.py:179
 #, python-format
 msgid "Error! You cannot create recursive hierarchy of Salary Rules."
-msgstr "Lỗi! Bạn không thể tạo phân cấp đệ quy của Quy tắc Lương."
+msgstr "កំហុស! អ្នកមិនអាចបង្កើតឋានានុក្រមហៅក្រៅឡើងវិញនៃវិធានប្រាក់ខែបានទេ។"
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_line__register_id
 #: model:ir.model.fields,help:hr_payroll.field_hr_salary_rule__register_id
 msgid "Eventual third party involved in the salary payment of the employees."
-msgstr "Bên thứ ba mà có liên quan đến việc thanh toán lương của nhân viên."
+msgstr "ទីបំផុតភាគីទីបីចូលរួមក្នុងការបើកប្រាក់ខែរបស់និយោជិក។"
 
 #. module: hr_payroll
 #: selection:hr.payslip.line,amount_select:0
@@ -684,74 +685,74 @@ msgstr "Bên thứ ba mà có liên quan đến việc thanh toán lương của
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line__amount_fix
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule__amount_fix
 msgid "Fixed Amount"
-msgstr "Giá trị cố định"
+msgstr "ចំនួនជួសជុល"
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_line__amount_percentage
 #: model:ir.model.fields,help:hr_payroll.field_hr_salary_rule__amount_percentage
 msgid "For example, enter 50.0 to apply a percentage of 50%"
-msgstr "Ví dụ, nhập 50,0 để sử dụng 50%"
+msgstr "ឧទាហរណ៍បញ្ចូល 50.0 ដើម្បីអនុវត្តភាគរយ 50%"
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/report/report_contribution_register.py:35
 #, python-format
 msgid "Form content is missing, this report cannot be printed."
-msgstr "Nội dung trong mẫu đang thiếu, báo cáo này không thể in được."
+msgstr "កំហុសទម្រង់សំណុំបែបបទរបាយការណ៍នេះមិនអាចបោះពុម្ពបានទេ"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_res_config_settings__module_l10n_fr_hr_payroll
 msgid "French Payroll"
-msgstr "French Payroll"
+msgstr "ប្រាក់បៀវត្សរ៍បារាំង"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_salary_rule_form
 msgid "General"
-msgstr "Chung"
+msgstr "ទូទៅ"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_by_employees
 msgid "Generate"
-msgstr "Tạo"
+msgstr "ទូទៅ"
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,name:hr_payroll.action_hr_payslip_by_employees
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_payslip_run_form
 msgid "Generate Payslips"
-msgstr "Tạo Phiếu lương"
+msgstr "បន្ថែមការចុះឈ្មោះចូលរួមវិភាគទានថ្មី។"
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_payslip_employees
 msgid "Generate payslips for all selected employees"
-msgstr "Tạo phiếu lương cho toàn bộ nhân viên được chọn"
+msgstr "បង្កើតក្រដាសប្រាក់សម្រាប់បុគ្គលិកដែលបានជ្រើសរើសទាំងអស់។"
 
 #. module: hr_payroll
 #: model:hr.salary.rule,name:hr_payroll.hr_salary_rule_sales_commission
 msgid "Get 1% of sales"
-msgstr "Nhận 1% Doanh số bán hàng"
+msgstr "ទទួលបាន1% នៃការលក់"
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/models/hr_payslip.py:182
 #, python-format
 msgid "Global Leaves"
-msgstr "Nghỉ Toàn cục"
+msgstr "ស្លឹកសកល។"
 
 #. module: hr_payroll
 #: model:hr.salary.rule,name:hr_payroll.hr_rule_taxable
 #: model:hr.salary.rule.category,name:hr_payroll.GROSS
 msgid "Gross"
-msgstr "Tổng"
+msgstr "ដុល"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_filter
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_line_filter
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_rule_filter
 msgid "Group By"
-msgstr "Nhóm theo"
+msgstr "ជា​ក្រុម​តាម"
 
 #. module: hr_payroll
 #: model:hr.salary.rule,name:hr_payroll.hr_salary_rule_houserentallowance1
 msgid "House Rent Allowance"
-msgstr "Phụ cấp Thuê nhà"
+msgstr "ប្រាក់ឧបត្ថម្ភជួលផ្ទះ"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contract_advantage_template__id
@@ -778,8 +779,7 @@ msgid ""
 "If its checked, indicates that all payslips generated from here are refund "
 "payslips."
 msgstr ""
-"Nếu được đánh dấu kiểm, chỉ ra rằng tất cả các phiếu lương được tạo từ đây "
-"là các phiếu hoàn tiền."
+"ប្រសិនបើបានធីកវាបង្ហាញថាការបង់ប្រាក់ទាំងអស់ដែលបានបង្កើតពីទីនេះគឺជាការសងប្រាក់វិញ។"
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_line__active
@@ -788,41 +788,43 @@ msgid ""
 "If the active field is set to false, it will allow you to hide the salary "
 "rule without removing it."
 msgstr ""
-"Nếu bỏ chọn trường Hiệu lực, nó sẽ cho phép bạn ẩn quy tắc tính lương mà "
-"không cần xóa bỏ nó."
+"  Learn to pronounce \n"
+"\n"
+" \n"
+"ប្រសិនបើវាលសកម្មត្រូវបានកំណត់មិនពិតវានឹងអនុញ្ញាតឱ្យអ្នកលាក់គោលការណ៍ប្រាក់ខែដោយមិនយកវាចេញ។"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_res_config_settings__module_l10n_in_hr_payroll
 msgid "Indian Payroll"
-msgstr "Indian Payroll"
+msgstr "ប្រាក់ខែឥណ្ឌា"
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip__credit_note
 msgid "Indicates this payslip has a refund of another"
-msgstr "Chỉ ra rằng phiếu lương này có một khoản hoàn tiền từ một phiếu khác"
+msgstr "បង្ហាញថាការទូទាត់ប្រាក់សំណងនេះមានការសងប្រាក់វិញ។"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_salary_rule_form
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Input Data"
-msgstr "Dữ liệu nhập ngoài"
+msgstr "បញ្ចូល​ទិន្នន័យ"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line__input_ids
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule__input_ids
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_salary_rule_form
 msgid "Inputs"
-msgstr "Đầu vào"
+msgstr "គណនាបញ្ជូល"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip__note
 msgid "Internal Note"
-msgstr "Ghi chú nội bộ"
+msgstr "ចំណាំផ្ទៃក្នុង"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_payslip_run_view_kanban
 msgid "Is a Blocking Reason?"
-msgstr "Là một Lý do Phong toả?"
+msgstr "តើហេតុផលរារាំងឬ?"
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_salary_rule__quantity
@@ -831,10 +833,10 @@ msgid ""
 "for Meal Voucher having fixed amount of 1€ per worked day can have its "
 "quantity defined in expression like worked_days.WORK100.number_of_days."
 msgstr ""
-"Được sử dụng để tính toán tổng số theo phần trăm và cố định. Ví dụ, một quy "
-"tắc Phiếu Ăn trưa có giá trị cố định 30000đ mỗi ngày làm việc có thể có số "
-"lượng được xác định bằng biểu thức kiểu như "
-"worked_days.WORK100.number_of_days."
+"វាត្រូវបានប្រើក្នុងការគណនាសម្រាប់ភាគរយនិងចំនួនថេរ។ សម្រាប់ឧ។ ច្បាប់សម្រាប់ "
+"Meal Voucher ដែលមានចំនួនថេរ ១ €ក្នុង ១ "
+"ថ្ងៃធ្វើការអាចកំណត់បរិមាណរបស់វាតាមការបញ្ចេញមតិដូចជា "
+"work_days.WORK100.number_of_days ។"
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_input__amount
@@ -843,9 +845,10 @@ msgid ""
 " basic salary for per product can defined in expression like result = "
 "inputs.SALEURO.amount * contract.wage*0.01."
 msgstr ""
-"Được sử dụng trong tính toán. Ví dụ, môt quy tắc cho nhân viên bán hàng có "
-"hoa hồng bằng 1% lương cơ bản nhân giá trị sản phẩm bán ra có thể được thể "
-"hiện bằng biểu thức result = inputs.SALEURO.amount * contract.wage*0.01."
+"វាត្រូវបានប្រើក្នុងការគណនា។ សម្រាប់ឧ។ ច្បាប់សម្រាប់ការលក់ដែលមានកម្រៃជើងសារ ១"
+" "
+"ភាគរយនៃប្រាក់ខែគោលសម្រាប់ផលិតផលនីមួយៗអាចត្រូវបានកំណត់ជាការបញ្ចេញមតិដូចជាលទ្ធផល"
+" = ធាតុចូល ។SALEURO.amount * contract.wage * 0.01 ។"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contract_advantage_template____last_update
@@ -864,7 +867,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_payroll.field_report_hr_payroll_report_contributionregister____last_update
 #: model:ir.model.fields,field_description:hr_payroll.field_report_hr_payroll_report_payslipdetails____last_update
 msgid "Last Modified on"
-msgstr "Sửa lần cuối vào"
+msgstr "កាលបរិច្ឆេតកែប្រែចុងក្រោយ"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contract_advantage_template__write_uid
@@ -881,7 +884,7 @@ msgstr "Sửa lần cuối vào"
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule_category__write_uid
 #: model:ir.model.fields,field_description:hr_payroll.field_payslip_lines_contribution_register__write_uid
 msgid "Last Updated by"
-msgstr "Cập nhật lần cuối bởi"
+msgstr "ផ្លាស់ប្តូរចុងក្រោយ"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contract_advantage_template__write_date
@@ -898,7 +901,7 @@ msgstr "Cập nhật lần cuối bởi"
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule_category__write_date
 #: model:ir.model.fields,field_description:hr_payroll.field_payslip_lines_contribution_register__write_date
 msgid "Last Updated on"
-msgstr "Cập nhật lần cuối vào"
+msgstr "ផ្លាស់ប្តូរចុងក្រោយ"
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_salary_rule_category__parent_id
@@ -906,55 +909,54 @@ msgid ""
 "Linking a salary category to its parent is used only for the reporting "
 "purpose."
 msgstr ""
-"Liên kết một nhóm lương đến cấp cha của nó chỉ được sử dụng cho mục đích báo"
-" cáo"
+"ការភ្ជាប់ប្រភេទប្រាក់ខែទៅឪពុកម្តាយរបស់វាត្រូវបានប្រើសម្រាប់គោលបំណងរាយការណ៍តែប៉ុណ្ណោះ។"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contract_advantage_template__lower_bound
 msgid "Lower Bound"
-msgstr "Giới hạn Thấp"
+msgstr "ព្រំដែនខាងក្រោម។"
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_contract_advantage_template__lower_bound
 msgid "Lower bound authorized by the employer for this advantage"
-msgstr "Mức ràng buộc thấp hơn được nhà tuyển dụng ủy quyền vì lợi thế này"
+msgstr "កំរិតទាបត្រូវបានអនុញ្ញាតដោយនិយោជកសម្រាប់គុណប្រយោជន៍នេះ។"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip__paid
 msgid "Made Payment Order ? "
-msgstr "Đã tạo Lệnh thanh toán/UNC?"
+msgstr "បានធ្វើការបញ្ជាទិញទូទាត់?"
 
 #. module: hr_payroll
 #: model:res.groups,name:hr_payroll.group_hr_payroll_manager
 msgid "Manager"
-msgstr "Quản lý"
+msgstr "អ្នកគ្រប់គ្រង"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line__condition_range_max
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule__condition_range_max
 msgid "Maximum Range"
-msgstr "Phạm vi tối đa"
+msgstr "ជួរអតិបរមា។"
 
 #. module: hr_payroll
 #: model:hr.salary.rule,name:hr_payroll.hr_salary_rule_meal_voucher
 msgid "Meal Voucher"
-msgstr "Phiếu Ăn"
+msgstr "ប័ណ្ណអាហារ Meal"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line__condition_range_min
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule__condition_range_min
 msgid "Minimum Range"
-msgstr "Phạm vi tối thiểu"
+msgstr "ជួរអប្បបរមា។"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Miscellaneous"
-msgstr "Khác"
+msgstr "ផ្សេងៗ"
 
 #. module: hr_payroll
 #: selection:hr.contract,schedule_pay:0
 msgid "Monthly"
-msgstr "Hàng tháng"
+msgstr "ប្រចំាខែ"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contract_advantage_template__name
@@ -968,65 +970,65 @@ msgstr "Hàng tháng"
 #: model_terms:ir.ui.view,arch_db:hr_payroll.report_payslip
 #: model_terms:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 msgid "Name"
-msgstr "Tên"
+msgstr "ឈ្មោះ"
 
 #. module: hr_payroll
 #: model:hr.salary.rule.category,name:hr_payroll.NET
 msgid "Net"
-msgstr "Lợi nhuận ròng"
+msgstr "សុទ្ធ។"
 
 #. module: hr_payroll
 #: model:hr.salary.rule,name:hr_payroll.hr_rule_net
 msgid "Net Salary"
-msgstr "Lương Thực Lĩnh"
+msgstr "ប្រាក់ខែ"
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/models/hr_payslip.py:201
 #, python-format
 msgid "Normal Working Days paid at 100%"
-msgstr "Ngày làm việc thông thường được trả 100%"
+msgstr "ថ្ងៃធ្វើការធម្មតាបង់ 100%"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_salary_rule_category_form
 msgid "Notes"
-msgstr "Ghi chú"
+msgstr "កំណត់សម្គាល់"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_worked_days__number_of_days
 msgid "Number of Days"
-msgstr "Số ngày"
+msgstr "ចំនួនថ្ងៃ"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_worked_days__number_of_hours
 msgid "Number of Hours"
-msgstr "Số giờ"
+msgstr "ចំនួននៃម៉ោង"
 
 #. module: hr_payroll
 #: model:res.groups,name:hr_payroll.group_hr_payroll_user
 msgid "Officer"
-msgstr "Cán bộ"
+msgstr "មន្រ្តី"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Other Inputs"
-msgstr "Dữ liệu nhập ngoài khác"
+msgstr "ការបញ្ចូលផ្សេងទៀត។"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payroll_structure__parent_id
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule_category__parent_id
 msgid "Parent"
-msgstr "Dự án cha"
+msgstr "ឪពុកម្តាយ"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line__parent_rule_id
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule__parent_rule_id
 msgid "Parent Salary Rule"
-msgstr "Quy tắc Lương Cấp cha"
+msgstr "វិធានប្រាក់ខែឪពុកម្តាយ។"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contribution_register__partner_id
 msgid "Partner"
-msgstr "Đối tác"
+msgstr "ដៃគូ"
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_payslip
@@ -1036,117 +1038,117 @@ msgstr "Đối tác"
 #: model_terms:ir.ui.view,arch_db:hr_payroll.report_payslip
 #: model_terms:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 msgid "Pay Slip"
-msgstr "Phiếu lương"
+msgstr "សន្លឹកប្រាក់ខែ"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_filter
 msgid "PaySlip Batch"
-msgstr "Bảng lương"
+msgstr "សន្លឹកប្រាក់ខែ"
 
 #. module: hr_payroll
 #: model:ir.actions.report,name:hr_payroll.payslip_details_report
 msgid "PaySlip Details"
-msgstr "Chi tiết phiếu lương"
+msgstr "ព័ត៌មានលំអិតអំពី PaySlip"
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,name:hr_payroll.action_payslip_lines_contribution_register
 msgid "PaySlip Lines"
-msgstr "Chi tiết phiếu lương"
+msgstr "បន្ទាត់ PaySlip ។"
 
 #. module: hr_payroll
 #: model:ir.actions.report,name:hr_payroll.action_contribution_register
 msgid "PaySlip Lines By Conribution Register"
-msgstr "Chi tiết phiếu lương theo Conribution Register"
+msgstr "បន្ទាត់ PaySlip ដោយការចុះឈ្មោះចូលរួមវិភាគទាន។"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.report_contributionregister
 msgid "PaySlip Lines by Contribution Register"
-msgstr "Chi tiết phiếu lương theo Contribution Register"
+msgstr "បន្ទាត់ PaySlip ដោយការចុះឈ្មោះចូលរួមវិភាគទាន។"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.report_contributionregister
 msgid "PaySlip Name"
-msgstr "Tên phiếu lương"
+msgstr "ឈ្មោះ PaySlip ។"
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,name:hr_payroll.open_payroll_modules
 #: model:ir.ui.menu,name:hr_payroll.menu_hr_payroll_root
 #: model_terms:ir.ui.view,arch_db:hr_payroll.res_config_settings_view_form
 msgid "Payroll"
-msgstr "Bảng lương"
+msgstr "ប្រាក់ខែ"
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_report_hr_payroll_report_contributionregister
 msgid "Payroll Contribution Register Report"
-msgstr "Báo cáo khoản đóng góp lương"
+msgstr "របាយការណ៍ចុះឈ្មោះវិភាគទានប្រាក់ខែ"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.res_config_settings_view_form
 msgid "Payroll Entries"
-msgstr "Kế toán Lương"
+msgstr "ការបើកប្រាក់ខែ"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payroll_structure_filter
 msgid "Payroll Structures"
-msgstr "Cấu trúc lương"
+msgstr "រចនាសម្ព័ន្ធប្រាក់ខែ។"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.res_config_settings_view_form
 msgid "Payroll rules that apply to your country"
-msgstr "Các quy tắc tiền lương mà áp dụng ở đất nước bạn"
+msgstr "ច្បាប់បើកប្រាក់ខែដែលអនុវត្តចំពោះប្រទេសរបស់អ្នក"
 
 #. module: hr_payroll
 #: model:ir.actions.report,name:hr_payroll.action_report_payslip
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Payslip"
-msgstr "Phiếu lương"
+msgstr "សន្លឹកប្រាក់បៀវត្ស"
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/models/hr_payslip.py:82
 #, python-format
 msgid "Payslip 'Date From' must be earlier 'Date To'."
-msgstr "'Từ ngày' của phiếu lương phải trước 'Đến ngày'."
+msgstr "Payslip 'Date From' ត្រូវតែមុនកាលបរិច្ឆេទ 'ទៅ' ។"
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_payslip_run
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip__payslip_run_id
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_payslip_run_filter
 msgid "Payslip Batches"
-msgstr "Bảng lương"
+msgstr "សន្លឹកសាច់ប្រាក់"
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,name:hr_payroll.act_payslip_lines
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip__payslip_count
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Payslip Computation Details"
-msgstr "Chi tiết phiếu lương"
+msgstr "ព័ត៌មានលំអិតការគណនាផៃឡៃ។"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_employee__payslip_count
 msgid "Payslip Count"
-msgstr "Số lượng phiếu lương"
+msgstr "ការរាប់ក្រដាស់ប្រាក់"
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_report_hr_payroll_report_payslipdetails
 msgid "Payslip Details Report"
-msgstr "Báo cáo chi tiết phiếu lương"
+msgstr "របាយការណ៍លម្អិតភីសាយលីប"
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_payslip_input
 msgid "Payslip Input"
-msgstr "Dữ liệu phiếu lương nhập ngoài"
+msgstr "ការដាក់បញ្ជូលក្រដាក់ប្រាក់បៀវត្ស"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip__input_line_ids
 msgid "Payslip Inputs"
-msgstr "Dữ liệu phiếu lương nhập ngoài"
+msgstr "ព័ត៌មានបញ្ចូលភីសាយលីប។"
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_payslip_line
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_line_form
 msgid "Payslip Line"
-msgstr "Dòng Phiếu lương"
+msgstr "សន្លឹកប្រាក់តាមទម្រង់"
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,name:hr_payroll.act_contribution_reg_payslip_lines
@@ -1154,28 +1156,28 @@ msgstr "Dòng Phiếu lương"
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_line_filter
 msgid "Payslip Lines"
-msgstr "Dòng Phiếu lương"
+msgstr "បន្ទាត់ផៃឡិប"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 msgid "Payslip Lines by Contribution Register"
-msgstr "Dòng Phiếu lương theo Contribution Register"
+msgstr "បន្ទាត់ផៃឡេបដោយចុះឈ្មោះចូលរួមវិភាគទាន។"
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_payslip_lines_contribution_register
 msgid "Payslip Lines by Contribution Registers"
-msgstr "Dòng chi tiết lương bằng các khoản đóng góp"
+msgstr "បន្ទាត់ផៃឡីបដោយចុះបញ្ជីចែកចាយ"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip__name
 msgid "Payslip Name"
-msgstr "Tên phiếu lương"
+msgstr "ឈ្មោះផេលលីប"
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_payslip_worked_days
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip__worked_days_line_ids
 msgid "Payslip Worked Days"
-msgstr "Ngày làm việc trên Phiếu lương"
+msgstr "ថ្ងៃធ្វើការភីសាយលាភ។"
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,name:hr_payroll.act_hr_employee_payslip_list
@@ -1186,7 +1188,7 @@ msgstr "Ngày làm việc trên Phiếu lương"
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_filter
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_tree
 msgid "Payslips"
-msgstr "Phiếu lương"
+msgstr "Payslips"
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,name:hr_payroll.action_hr_payslip_run_tree
@@ -1194,12 +1196,12 @@ msgstr "Phiếu lương"
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_payslip_run_form
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_payslip_run_tree
 msgid "Payslips Batches"
-msgstr "Bảng lương"
+msgstr "កញ្ជប់សន្លឹកប្រាក់"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_by_employees
 msgid "Payslips by Employees"
-msgstr "Phiếu lương theo Nhân viên"
+msgstr "ការបង់លុយដោយនិយោជិក។"
 
 #. module: hr_payroll
 #: selection:hr.payslip.line,amount_select:0
@@ -1207,39 +1209,39 @@ msgstr "Phiếu lương theo Nhân viên"
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line__amount_percentage
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule__amount_percentage
 msgid "Percentage (%)"
-msgstr "Phần trăm (%)"
+msgstr "ភាគរយ(%)"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line__amount_percentage_base
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule__amount_percentage_base
 msgid "Percentage based on"
-msgstr "Phần trăm dựa trên"
+msgstr "ភាគរយផ្តោតសំខាន់លើ"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_payslip_run_form
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Period"
-msgstr "Chu kỳ"
+msgstr "រយៈពេល"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.res_config_settings_view_form
 msgid "Post payroll slips in accounting"
-msgstr "Tự động tạo các bút toán lương cho kế toán"
+msgstr "ប័ណ្ណការងារបើកយឺត ៗ ក្នុងគណនេយ្យ។"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_payslip_lines_contribution_register
 msgid "Print"
-msgstr "In"
+msgstr "បោះពុម្ព"
 
 #. module: hr_payroll
 #: model:hr.salary.rule,name:hr_payroll.hr_salary_rule_professionaltax1
 msgid "Professional Tax"
-msgstr "Thuế Nhà thầu"
+msgstr "ពន្ធវិជ្ជាជីវៈ"
 
 #. module: hr_payroll
 #: model:hr.salary.rule,name:hr_payroll.hr_salary_rule_providentfund1
 msgid "Provident Fund"
-msgstr "Quỹ Dự phòng"
+msgstr "មូលនិធិអ្នកផ្តល់សេវា"
 
 #. module: hr_payroll
 #: selection:hr.payslip.line,amount_select:0
@@ -1247,105 +1249,108 @@ msgstr "Quỹ Dự phòng"
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line__amount_python_compute
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule__amount_python_compute
 msgid "Python Code"
-msgstr "Mã Python"
+msgstr "កូដភូតុន"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line__condition_python
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule__condition_python
 msgid "Python Condition"
-msgstr "Điều kiện Python"
+msgstr "លក្ខខណ្ឌពស់ថ្លាន់។"
 
 #. module: hr_payroll
 #: selection:hr.payslip.line,condition_select:0
 #: selection:hr.salary.rule,condition_select:0
 msgid "Python Expression"
-msgstr "Biểu thức Python"
+msgstr "ពស់ថ្លាន់។"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line__quantity
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule__quantity
 msgid "Quantity"
-msgstr "Số lượng"
+msgstr "ចំនួន"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.report_contributionregister
 msgid "Quantity/Rate"
-msgstr "Số lượng/Tỷ lệ"
+msgstr "គុណភាព"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.report_payslip
 #: model_terms:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 msgid "Quantity/rate"
-msgstr "Số lượng/Tỷ lệ"
+msgstr "គុណភាព និងអត្រា"
 
 #. module: hr_payroll
 #: selection:hr.contract,schedule_pay:0
 msgid "Quarterly"
-msgstr "Hàng Quý"
+msgstr "ប្រចាំត្រីមាស"
 
 #. module: hr_payroll
 #: selection:hr.payslip.line,condition_select:0
 #: selection:hr.salary.rule,condition_select:0
 msgid "Range"
-msgstr "Phạm vi"
+msgstr "អត្រា"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line__condition_range
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule__condition_range
 msgid "Range Based on"
-msgstr "Phạm vi dựa trên"
+msgstr "ផ្តោតទៅលើអត្រា"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line__rate
 msgid "Rate (%)"
-msgstr "Tỷ lệ (%)"
+msgstr "ភាគរយ (%)"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payroll_structure__code
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip__number
 msgid "Reference"
-msgstr "Tham chiếu"
+msgstr "អ្នកធានា"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Refund"
-msgstr "Hoàn trả"
+msgstr ""
+"ប្រាក់សង\n"
+" \n"
+" "
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/models/hr_payslip.py:102
 #, python-format
 msgid "Refund: "
-msgstr "Hoàn trả: "
+msgstr "យល់ខុស"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contribution_register__register_line_ids
 msgid "Register Line"
-msgstr "Đăng ký Line"
+msgstr "ចុះឈ្មោះបន្ទាត់។"
 
 #. module: hr_payroll
 #: selection:hr.payslip,state:0
 msgid "Rejected"
-msgstr "Bị từ chối"
+msgstr "លុបចោល"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line__salary_rule_id
 msgid "Rule"
-msgstr "Quy tắc"
+msgstr "ច្បាប់"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_salary_rule_category_form
 msgid "Salary Categories"
-msgstr "Nhóm lương"
+msgstr "ចំណាប់ថ្នាកប្រាក់បៀវត្ស"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Salary Computation"
-msgstr "Tính toán Lương"
+msgstr "ការគណនាប្រាក់ខែ"
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_salary_rule
 msgid "Salary Rule"
-msgstr "Quy tắc lương"
+msgstr "វិធានប្រាក់ខែ"
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,name:hr_payroll.action_hr_salary_rule_category
@@ -1353,20 +1358,20 @@ msgstr "Quy tắc lương"
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_salary_rule_category_tree
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_salary_rule_category_filter
 msgid "Salary Rule Categories"
-msgstr "Nhóm Quy tắc Lương"
+msgstr "ប្រភេទវិធានប្រាក់ខែ។"
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_salary_rule_category
 #: model_terms:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_line_filter
 msgid "Salary Rule Category"
-msgstr "Nhóm Quy tắc Lương"
+msgstr "ប្រភេទវិធានប្រាក់ខែ។"
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_rule_input
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_rule_input__input_id
 msgid "Salary Rule Input"
-msgstr "Đầu vào Quy tắc Lương"
+msgstr "ការបញ្ចូលប្រាក់ខែគោល"
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,name:hr_payroll.action_salary_rule_form
@@ -1378,14 +1383,14 @@ msgstr "Đầu vào Quy tắc Lương"
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_employee_grade_form
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_rule_filter
 msgid "Salary Rules"
-msgstr "Quy tắc lương"
+msgstr "ច្បាប់ប្រាក់បៀវត្ត"
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/models/hr_payslip.py:403
 #: code:addons/hr_payroll/models/hr_payslip.py:453
 #, python-format
 msgid "Salary Slip of %s for %s"
-msgstr "Phiếu lương của %s cho %s"
+msgstr "ក្រដាសប្រាក់ខែ%s%s"
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_payroll_structure
@@ -1394,43 +1399,43 @@ msgstr "Phiếu lương của %s cho %s"
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_line_tree
 msgid "Salary Structure"
-msgstr "Cấu trúc lương"
+msgstr "រចនាសម្ព័ន្ធប្រាក់ខែ"
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,name:hr_payroll.action_view_hr_payroll_structure_list_form
 #: model:ir.ui.menu,name:hr_payroll.menu_hr_payroll_structure_view
 msgid "Salary Structures"
-msgstr "Cấu trúc lương"
+msgstr "រចនាសម្ព័ន្ធប្រាក់ខែ"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contract__schedule_pay
 msgid "Scheduled Pay"
-msgstr "Thanh toán"
+msgstr "កំណត់ពេលបង់។"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_payslip_run_filter
 msgid "Search Payslip Batches"
-msgstr "Tìm kiếm Bảng lương"
+msgstr "ការស្រាវជ្រាវពីចំនួនកំណត់សន្លឹកប្រាក់បៀវត្ស"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_line_filter
 msgid "Search Payslip Lines"
-msgstr "Tìm Các dòng phiếu lương"
+msgstr "ស្រាវជ្រាវអំពីបន្តត់សន្លឹកប្រាក់ខែ"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_filter
 msgid "Search Payslips"
-msgstr "Tìm Phiếu lương"
+msgstr "ស្វែងរកផៃលីប។"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_rule_filter
 msgid "Search Salary Rule"
-msgstr "Tìm Quy tắc lương"
+msgstr "ស្វែងរកវិធានប្រាក់ខែ"
 
 #. module: hr_payroll
 #: selection:hr.contract,schedule_pay:0
 msgid "Semi-annually"
-msgstr "Nửa năm một"
+msgstr "ពាក់​ក​ណ្តា​ល​ឆ្នាំ"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_input__sequence
@@ -1438,35 +1443,35 @@ msgstr "Nửa năm một"
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_worked_days__sequence
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule__sequence
 msgid "Sequence"
-msgstr "Trình tự"
+msgstr "លំដាប់"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_payslip_run_form
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Set to Draft"
-msgstr "Thiết lập về dự thảo"
+msgstr "កំណត់ជាសេចក្ដីព្រាង"
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,name:hr_payroll.action_hr_payroll_configuration
 #: model:ir.ui.menu,name:hr_payroll.menu_hr_payroll_global_settings
 msgid "Settings"
-msgstr "Thiết lập"
+msgstr "ការកំណត់"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_filter
 msgid "States"
-msgstr "Trạng thái"
+msgstr "ស្ថានភាព"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip__state
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_run__state
 msgid "Status"
-msgstr "Trạng thái"
+msgstr "ស្ថានភាព"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip__struct_id
 msgid "Structure"
-msgstr "Cấu trúc lương"
+msgstr "រចនាសម្ព័ន្ធ"
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_line__code
@@ -1475,39 +1480,39 @@ msgid ""
 "The code of salary rules can be used as reference in computation of other "
 "rules. In that case, it is case sensitive."
 msgstr ""
-"Mã của quy tắc lương có thể được sử dụng như tham chiếu trong việc tính toán"
-" các quy tắc khác."
+"លេខកូដវិធានប្រាក់ខែអាចត្រូវបានប្រើជាឯកសារយោងក្នុងការគណនាវិធានផ្សេងទៀត។ "
+"ក្នុងករណីនោះវាជាករណីរសើប"
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_input__code
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_worked_days__code
 #: model:ir.model.fields,help:hr_payroll.field_hr_rule_input__code
 msgid "The code that can be used in the salary rules"
-msgstr "Mã được sử dụng trong quy tắc lương"
+msgstr "លេខកូដដែលអាចប្រើក្នុងវិធានប្រាក់ខែ។"
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_line__amount_select
 #: model:ir.model.fields,help:hr_payroll.field_hr_salary_rule__amount_select
 msgid "The computation method for the rule amount."
-msgstr "Phương pháp tính toán cho tổng tiền của một quy tắc."
+msgstr "វិធីសាស្ត្រគណនាសម្រាប់ចំនួនទឹកប្រាក់នៃវិធាន។"
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_input__contract_id
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_worked_days__contract_id
 msgid "The contract for which applied this input"
-msgstr "Hợp đồng mà input này áp dụng cho"
+msgstr "កិច្ចសន្យាដែលបានអនុវត្តការបញ្ចូលនេះ។"
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_line__condition_range_max
 #: model:ir.model.fields,help:hr_payroll.field_hr_salary_rule__condition_range_max
 msgid "The maximum amount, applied for this rule."
-msgstr "Tổng tiền tối đa được áp dụng trên quy tắc này."
+msgstr "ចំនួនអតិបរិមាដែលត្រូវបានអនុវត្តសម្រាប់ច្បាប់នេះ។"
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_line__condition_range_min
 #: model:ir.model.fields,help:hr_payroll.field_hr_salary_rule__condition_range_min
 msgid "The minimum amount, applied for this rule."
-msgstr "Tổng tiền tối thiểu được áp dụng trên quy tắc này."
+msgstr "ចំនួនអប្បបរមាដែលត្រូវបានអនុវត្តសម្រាប់ច្បាប់នេះ។"
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_line__condition_range
@@ -1517,9 +1522,9 @@ msgid ""
 " but you can also use categories code fields in lowercase as a variable "
 "names (hra, ma, lta, etc.) and the variable basic."
 msgstr ""
-"Cái này sẽ được sử dụng để tính toán giá trị trường %; in general it is on "
-"basic, but you can also use categories code fields in lowercase as a "
-"variable names (hra, ma, lta, etc.) and the variable basic."
+"វានឹងត្រូវបានប្រើដើម្បីគណនាតម្លៃ% វាល។ "
+"ជាទូទៅវាគឺនៅលើមូលដ្ឋានប៉ុន្តែអ្នកក៏អាចប្រើប្រភេទលេខកូដប្រភេទនៅក្នុងអក្សរតូចជាឈ្មោះអថេរ"
+" (ហេរ៉ាម៉ាឡេតាជាដើម) និងអថេរមូលដ្ឋាន។"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line__total
@@ -1527,124 +1532,121 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_payroll.report_payslip
 #: model_terms:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 msgid "Total"
-msgstr "Tổng"
+msgstr "សរុប​"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Total Working Days"
-msgstr "Tổng số ngày làm việc"
+msgstr "ថ្ងៃធ្វើការសរុប។"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contract_advantage_template__upper_bound
 msgid "Upper Bound"
-msgstr "Giới hạn Trên"
+msgstr "ព្រំដែនខាងលើ"
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_contract_advantage_template__upper_bound
 msgid "Upper bound authorized by the employer for this advantage"
-msgstr "Giới hạn trên được ủy quyền bởi nhà tuyển dụng vì lợi thế này"
+msgstr "ទទួលបានសិទ្ធិខ្ពស់ពីនិយោជកដើម្បីផលប្រយោជន៍នេះ។"
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_line__sequence
 #: model:ir.model.fields,help:hr_payroll.field_hr_salary_rule__sequence
 msgid "Use to arrange calculation sequence"
-msgstr "Sử dụng để sắp xếp trình tự tính toán"
+msgstr "ប្រើដើម្បីរៀបចំលំដាប់គណនា។"
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_line__appears_on_payslip
 #: model:ir.model.fields,help:hr_payroll.field_hr_salary_rule__appears_on_payslip
 msgid "Used to display the salary rule on payslip."
-msgstr "Được sử dụng để hiển thị quy tắc lương trên phiếu lương."
+msgstr "ត្រូវបានប្រើដើម្បីបង្ហាញវិធានប្រាក់បៀរវត្សនៅលើការបង់ប្រាក់។"
 
 #. module: hr_payroll
 #: selection:hr.payslip,state:0
 msgid "Waiting"
-msgstr "Chờ"
+msgstr "កំពុងរង់ចាំ"
 
 #. module: hr_payroll
 #: selection:hr.contract,schedule_pay:0
 msgid "Weekly"
-msgstr "Hàng tuần"
+msgstr "ប្រចំាសប្តាហ៏"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Worked Day"
-msgstr "Ngày làm việc"
+msgstr "ថ្ងៃធ្វើការងារ"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Worked Days"
-msgstr "Ngày làm việc"
+msgstr "ថ្ងៃធ្វើការងារ"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Worked Days & Inputs"
-msgstr "Ngày làm việc & Dữ liệu nhập ngoài"
+msgstr "ថ្ងៃធ្វើការនិងធាតុចូល។"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contract__resource_calendar_id
 msgid "Working Schedule"
-msgstr "Thời gian làm việc"
+msgstr "កាលវិភាគការងារ"
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/models/hr_salary_rule.py:211
 #, python-format
 msgid "Wrong percentage base or quantity defined for salary rule %s (%s)."
-msgstr ""
-"Sai cơ sở lấy phần trăm hoặc số lượng định nghĩa trong quy tắc lương %s "
-"(%s)."
+msgstr "ភាគរយភាគរយខុសឬបរិមាណដែលបានកំណត់សម្រាប់វិធានប្រាក់ខែ %s (%s)."
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/models/hr_salary_rule.py:217
 #, python-format
 msgid "Wrong python code defined for salary rule %s (%s)."
-msgstr "Sai mã python định nghĩa trong quy tắc lương %s (%s)."
+msgstr "លេខកូដពស់ថ្លាន់ខុសកំណត់សំរាប់ច្បាប់ប្រាក់ខែ។%s(%s)."
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/models/hr_salary_rule.py:240
 #, python-format
 msgid "Wrong python condition defined for salary rule %s (%s)."
-msgstr "Sai điều kiện python định nghĩa trong quy tắc lương %s (%s)."
+msgstr "ស្ថានភាពពស់ថ្លាន់ខុសកំណត់សំរាប់ច្បាប់ប្រាក់ខែ%s (%s) ។"
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/models/hr_salary_rule.py:204
 #, python-format
 msgid "Wrong quantity defined for salary rule %s (%s)."
-msgstr "Sai số lượng định nghĩa trong quy tắc lương %s (%s)."
+msgstr "បរិមាណខុសដែលបានកំណត់សម្រាប់វិធានប្រាក់ខែ។%s(%s)."
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/models/hr_salary_rule.py:234
 #, python-format
 msgid "Wrong range condition defined for salary rule %s (%s)."
-msgstr "Sai phạm vi định nghĩa trong quy tắc lương %s (%s)."
+msgstr "លក្ខខណ្ឌជួរខុសដែលបានកំណត់សម្រាប់វិធានប្រាក់ខែ។%s (%s)."
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/models/hr_salary_rule.py:36
 #, python-format
 msgid "You cannot create a recursive salary structure."
-msgstr "Bạn không thể tạo cấu trúc lương đệ quy"
+msgstr "អ្នកមិនអាចបង្កើតរចនាសម្ព័ន្ធប្រាក់ខែដែលហៅខ្លួនឯងបានទេ។"
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/models/hr_payslip.py:127
 #, python-format
 msgid "You cannot delete a payslip which is not draft or cancelled!"
-msgstr ""
-"Bạn không thể xoá một phiếu lương mà không ở trạng thái dự thảo hoặc huỷ!"
+msgstr "អ្នកមិនអាចលុបការបង់ប្រាក់ដែលមិនបានព្រាងឬលុបចោលទេ!"
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/wizard/hr_payroll_payslips_by_employees.py:24
 #, python-format
 msgid "You must select employee(s) to generate payslip(s)."
-msgstr "Bạn phải chọn ít nhất một nhân viên để tạo (các) phiếu lương."
+msgstr "អ្នកត្រូវតែជ្រើសរើសបុគ្គលិកដើម្បីបង្កើតការទូទាត់ប្រាក់(s).។"
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/models/hr_payslip.py:525
 #, python-format
 msgid "You must set a contract to create a payslip line."
-msgstr "Bạn phải thiết lập một hợp đồng để có thể tạo chi tiết phiếu lương."
+msgstr "អ្នកត្រូវតែកំណត់កិច្ចសន្យាដើម្បីបង្កើតខ្សែបង់ប្រាក់។"
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_line__amount_percentage_base
 #: model:ir.model.fields,help:hr_payroll.field_hr_salary_rule__amount_percentage_base
 msgid "result will be affected to a variable"
-msgstr "kết quả sẽ bị ảnh hưởng tới một biến số"
+msgstr "លទ្ធផលនឹងត្រូវបានប៉ះពាល់ទៅនឹងអថេរមួយ។"
